@@ -8,8 +8,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  lesson = ["wow", "I", "am", "really", "learning"]
-  lesson.push("arrays!")
+  
+  array.push(element)
   puts array.inspect
 end
 
