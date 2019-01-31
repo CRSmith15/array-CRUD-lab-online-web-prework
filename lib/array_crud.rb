@@ -9,7 +9,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   my_array = ["wow", "I", "am", "really", "learning"]
-  my_array.push("arrays!")
+  my_array << "arrays!"
   puts my_array
 end
 
